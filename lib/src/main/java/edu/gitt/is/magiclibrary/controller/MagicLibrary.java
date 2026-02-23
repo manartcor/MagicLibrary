@@ -39,7 +39,12 @@ public class MagicLibrary {
 		
 		log.info("Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
 		log.log(Level.INFO, "Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
+
 		log.info("Traza desde la rama main para provocar conflicto");
+
+		log.info("Hola soy Manuel Jesús ejecutando la aplicación"); 
+		
+		refs/heads/Practica8
 		bookListener=new BookListener();
 		log.finest("Acabo de crear un objeto de tipo "+BookListener.class.getName());
 		MLView.getFrameManager().setEntityMenu("Book", bookListener);
